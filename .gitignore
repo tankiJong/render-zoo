@@ -106,3 +106,5 @@ Release
 *.vbproj.user
 ipch
 *sdf
+Temporary/
+.vs/
