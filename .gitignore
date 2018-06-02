@@ -3,7 +3,6 @@
 *.lo
 *.o
 *.obj
-!data/*/*.obj
 
 # Precompiled Headers
 *.gch
@@ -93,11 +92,9 @@ $RECYCLE.BIN/
 *.opendb
 *.history
 data/log/
-*.suo
 *.TMP
 data/screenshot/
 *.log
-data/config/user.config
 Debug
 !Engine/Debug
 Release
@@ -108,3 +105,5 @@ ipch
 *sdf
 Temporary/
 .vs/
+!Run_Win32/**/*.obj
+Run_Win32/Engine/
